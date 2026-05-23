@@ -1,3 +1,4 @@
+# brom016
 import cv2
 import numpy as np
 import os
@@ -70,7 +71,7 @@ def draw_overlay(original, mask):
         x, y, w, h = cv2.boundingRect(cnt)
         cv2.rectangle(overlay, (x, y), (x + w, y + h), (0, 255, 0), 2)
     return overlay
-
+# brom016
 
 def process_image(image_path, output_dir):
     name = Path(image_path).stem
@@ -144,3 +145,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# brom016

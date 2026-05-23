@@ -151,3 +151,5 @@ Fitur GUI:
 1. Otsu, N. (1979). "A threshold selection method from gray-level histograms". IEEE Trans. Sys., Man., Cyber.
 2. Gonzalez, R. C. & Woods, R. E. (2018). "Digital Image Processing". Pearson.
 3. Bradski, G. (2000). "The OpenCV Library". Dr. Dobb's Journal of Software Tools.
+
+# brom016-2026

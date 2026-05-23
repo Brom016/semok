@@ -136,3 +136,5 @@ Berikut contoh hasil segmentasi pada beberapa motif batik dari dataset:
 ## License
 
 Project ini dibuat untuk tujuan akademis.
+
+# brom016-2026

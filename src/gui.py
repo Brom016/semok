@@ -1,3 +1,4 @@
+# brom016
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import cv2
@@ -112,7 +113,7 @@ class BatikSegmentationGUI:
 
         self.file_label = ttk.Label(bar, text="Belum ada gambar dipilih", style="Sub.TLabel")
         self.file_label.pack(side=tk.LEFT, padx=(16, 0))
-
+# brom016
     def _build_main_area(self):
         frame = ttk.Frame(self.content_frame)
         frame.pack(fill=tk.X, padx=20, pady=(0, 8))
@@ -203,7 +204,7 @@ class BatikSegmentationGUI:
                   "latar kain lebih terang daripada motif.",
                   font=("Segoe UI", 9), foreground="#4a5568", wraplength=900,
                   justify=tk.LEFT).pack(anchor=tk.W)
-
+# brom016
     def _build_explanation(self):
         frame = ttk.LabelFrame(self.content_frame, text="Penjelasan Proses")
         frame.pack(fill=tk.X, padx=20, pady=(0, 20))
@@ -324,7 +325,7 @@ class BatikSegmentationGUI:
         state = tk.NORMAL if self.image_path else tk.DISABLED
         self.btn_process.config(state=state)
         self.btn_save.config(state=state)
-
+# brom016
     def _select_image(self):
         path = filedialog.askopenfilename(
             title="Pilih Citra Batik",
@@ -443,3 +444,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# brom016
